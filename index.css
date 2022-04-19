@@ -17,7 +17,6 @@ h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 100%;
-    height: 100%;
     margin-top: 15%;
 }
 
@@ -52,7 +51,6 @@ h1{
     justify-content: space-between;
     width: 100%;
     padding: 0%;
-    height: auto;
 }
 
 #contentleft{
@@ -67,7 +65,7 @@ h1{
     position: relative;
     width: 100%;
     height: 30%;
-    margin: auto;
+    margin: 0%;
 }
 
 #contentmap{
@@ -80,22 +78,29 @@ h5{
     border: 2px black solid;
     width: 100%;
     text-align: center;
-    margin: 0%;
+    margin-top: 3%;
     font-size: 20px;
 }
 
 #escudo{
-    height: auto;
-    width: 100%;
+    height: 350px;
+    width: 60%;
     position: relative;
-    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#box{
+    width: 100%;
+    height: 50px;
 }
 
 #mapimage{
-    height: auto;
-    width: 100%;
+    height: 380px;
+    width: 60%;
     position: relative;
-    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #generalcontent{
@@ -111,6 +116,7 @@ h2{
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     -webkit-text-stroke: 2px black;
+    margin: 0%;
 }
 
 .parrafos{
@@ -144,7 +150,7 @@ h4{
 
 .gobs{
     width: 100%;
-    height: auto;
+    height: 180px;
     margin: auto;
 }
 
@@ -152,6 +158,14 @@ h4{
     width: 100%;
     height: auto;
     margin: auto;
+}
+
+#provincetitle{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    -webkit-text-stroke: 2px black;
+    margin-top: 2%;
 }
 
 #TextThree{
@@ -165,7 +179,6 @@ h4{
     justify-content: space-around;
     width: 100%;
     height: auto;
-
 }
 
 #provincebox{
@@ -195,7 +208,6 @@ h4{
     font-size: 25px;
 }
 
-
 hr{
     margin-top: 1%;
     width: 100%;
@@ -206,7 +218,7 @@ hr{
     flex-direction: row;
     width: 100%;
     height: 300px;
-    background-color: brown
+    background-color: brown;
 }
 
 #questions{
