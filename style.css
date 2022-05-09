@@ -104,7 +104,7 @@ h2{
 }
 
 #europe{
-    width: 100%;
+    width: 70%;
 }
 
 #europeimg{
@@ -113,7 +113,7 @@ h2{
 }
 
 #countrylist{
-    width: 25%;
+    width: 30%;
     position: relative;
     color: white;
     background: transparent;
@@ -131,6 +131,7 @@ th{
     margin: 1% 5% 1% 5%;
     padding-left: 1%;
     padding-right: 1%;
+    width: 50%;
 }
 
 td{
@@ -139,6 +140,7 @@ td{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     margin: 1% 5% 1% 5%;
+    width: 50%;
 }
 
 #footerdiv{
