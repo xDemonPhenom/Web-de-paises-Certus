@@ -75,35 +75,48 @@ h1{
 
 #content{
     width: 100%;
-
 }
 
 #upcontent{
     display: flex;
-    flex-direction: column;
-}
-
-#text{
-    display: flex;
-    flex-direction: reverse;
-}
-
-#parrafos{
-    width: 99%;
-}
-
-#noruega{
-    width: 25%;
+    flex-direction: row;
     height: auto;
-    margin: auto;
+}
+
+#ucrania{
+    width: 30%;
+    height: 220px;
+}
+
+#ucraniaflag{
+    margin-top: 3%;
+    width: 100%;
+    height: 220px;
+}
+
+#ucraniatextone{
+    width: 70%;
+    height: auto;
+}
+
+#ucraniatextone p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 1% 0 1%;
+    text-align: justify;
 }
 
 p{
     color: white;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 1% 0 1%;
     text-align: justify;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
 }
 
 h2{
@@ -112,85 +125,164 @@ h2{
     margin-top: 5%;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
 }
 
-#content{
+#midcontentup{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contentbox{
+    width: 32%;
+    height: 480px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.midtext{
+    width: 98%;
+    margin: auto;
+    height: 150px;
+}
+
+.midtext p{
+    color: white;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0% 1% 0% 1%;
+    width: 98%;
+}
+
+.midimg{
+    width: 98%;
+    margin: auto;
+}
+
+.img{
+    width: 100%;
+    align-items: center;
+    height: 250px;
+}
+
+
+#midcontentdown{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+#contentdown{
     width: 100%;
 }
 
-#Noruegacontent{
+#down{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    color: white;
+    text-align: initial;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxcontent{
+    width: 100%;
+    height: 200px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: space-between;
 }
 
-#leftcontent{
-    width: 100%;
-    height: auto;
+.imgdown{
+    width: 30%;
+    height: 150px;
 }
 
-#rightcontent{
+.imgd{
     width: 100%;
-    height: auto;
+    height: 200px;
+}
+
+.textdown{
+    width: 65%;
+    height: 200px;
+}
+
+.textdown p{
+    width: 100%;
+    text-align: justify;
 }
 
 h5{
     color: white;
     text-align: center;
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration-line: underline;
 }
 
-.box{
+#videocontent{
     width: 100%;
-    height: 550px;
 }
 
-.Noruegaimg{
-    box-shadow: 2px 2px 5px #999;
-    width: 95%;
-    height: 280px;
-    margin: 0% 2.5% 0% 2.5%;
-}
-
-.img{
+.last{
     width: 100%;
-    height: 280px;
-    box-shadow: 2px 2px 5px #999;
 }
 
-.Noruegap{
+#lastimg{
+    width: 96%;
+    margin: auto;
+}
+
+.lastpart{
+    width: 96%;
+    height: 350px;
+    
+}
+
+.lastp{
     width: 98%;
-    height: auto;
-    margin: 2% 1% 2% 1%;
+    margin: auto;
 }
 
-#downcontent{
+.lastp p{
+    text-align: justify;
+}
+
+#notices{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: auto;
+    justify-content: space-between;
 }
 
-.downbox{
-    width: 100%;
-    height: 500px;
+.notice{
+    width: 32%;
 }
 
-.downimg{
-    width: 95%;
-    height: 280px;
-    box-shadow: 2px 2px 5px #999;
-    margin: 0% 2.5% 0% 2.5%;
-}
-
-.downNoruegap{
-    width: 95%;
-    margin: 0% 2.5% 0% 2.5%;
-}
-
+/* FOOTER */
 #footerdiv{
     width: 100%;
     display: flex;

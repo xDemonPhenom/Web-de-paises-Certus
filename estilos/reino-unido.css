@@ -204,9 +204,25 @@ img{
 h6{
     color: white;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#left{
+    text-align: initial;
+    width: 30%;
 }
 
 #right{
     text-align: end;
+    width: 70%;
+}
+
+.button{
+    width: 5%;
+    height: auto;
+    border: none;
+}
+
+.button img{
+    height: 45px;
 }
