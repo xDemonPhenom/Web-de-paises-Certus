@@ -38,15 +38,66 @@
     margin-bottom: 5%;
 }
 
+ul, ol {
+    list-style:none;
+}
+
 a{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 200px;
     color: white;
     font-size: 18px;
     border: 2px solid white;
     padding: 3%;
     margin: 2% 0 2% 0;
+    display: block;
+}
+
+
+navbar li{
+    padding: 0%;
+    margin-top: 0%;
+    width: 200px;
+    height: 50px;
+}
+
+
+navbar li a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    border: 2px solid white;
+    display: block;
+}
+
+navbar li a:hover{
+    background-color:#434343;
+}
+
+navbar li ul {
+    display:none;
+    position:absolute;
+    width: 200px;
+    padding: 0% 1%;
+    margin: 0%;
+}
+
+navbar li:hover > ul {
+    display:block;
+}
+
+navbar li ul li {
+    position:relative;
+}
+
+navbar li ul li ul {
+    right:-200px;
+    top:0px;
 }
 
 #headerimg{
